@@ -56,7 +56,7 @@
       <button class="home__contact">Contact me</button>
     </section>
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
       <h1>About me</h1>
       <p>
         - 저의 삶의 목표는 어디에 속해 있든 그곳에서 가치를 창출하고 저 스스로가
@@ -72,17 +72,17 @@
           <div class="major__icon">
             <i class="fas fa-server"></i>
           </div>
-          <div class="major__title">Back-end</div>
+          <h2 class="major__title">Back-end</h2>
           <div class="major__description">
-            Java<br />
-            Spring, Spring Boot, Spring MVC
+            Java, Spring,<br />
+            Spring Boot, Spring MVC
           </div>
         </div>
         <div class="major">
           <div class="major__icon">
             <i class="fab fa-html5"></i>
           </div>
-          <div class="major__title">Front-end</div>
+          <h2 class="major__title">Front-end</h2>
           <div class="major__description">
             HTML, CSS, JavaScript<br />
             React
@@ -92,7 +92,7 @@
           <div class="major__icon">
             <i class="fab fa-aws"></i>
           </div>
-          <div class="major__title">Dev-Ops</div>
+          <h2 class="major__title">Dev-Ops</h2>
           <div class="major__description">
             MySQL<br />
             AWS EC2
@@ -102,13 +102,17 @@
       <div class="about__jobs">
         <div class="job">
           <img src="img/school.jpg" alt="Yeungnam Uni." class="job__logo" />
-          <p class="job__name">영남대학교 컴퓨터공학과</p>
-          <p class="job__period">2016.03 ~ 2022.02</p>
+          <div class="job__description">
+            <p class="job__name">영남대학교 컴퓨터공학과</p>
+            <p class="job__period">2016.03 ~ 2022.02</p>
+          </div>
         </div>
         <div class="job">
           <img src="img/school.jpg" alt="Yeungnam Uni." class="job__logo" />
-          <p class="job__name">영남대학교 컴퓨터공학과</p>
-          <p class="job__period">2016.03 ~ 2022.02</p>
+          <div class="job__description">
+            <p class="job__name">영남대학교 컴퓨터공학과</p>
+            <p class="job__period">2016.03 ~ 2022.02</p>
+          </div>
         </div>
       </div>
     </section>
@@ -242,9 +246,7 @@
         <a href="https://nack1400.tistory.com/" target="_blank">
           <i class="fa-solid fa-blog"></i>
         </a>
-        <p class="contact__rights">
-          권락현 - All right reserved
-        </p>
+        <p class="contact__rights">권락현 - All right reserved</p>
       </div>
     </section>
   </body>
