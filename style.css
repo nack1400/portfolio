@@ -385,8 +385,7 @@ p {
 
 .testimonial {
   display: flex;
-  margin: 32px auto;
-  max-width: 1200px;
+  margin: 32px;
 }
 
 .testimonial__avatar {
