@@ -77,7 +77,6 @@ workBtnContainer.addEventListener("click", (e) => {
   projectContainer.classList.add("anim-out");
   setTimeout(() => {
     projects.forEach((project) => {
-      console.log(project.dataset.type);
       if (filter === "*" || filter === project.dataset.type) {
         project.classList.remove("invisible");
       } else {
@@ -127,7 +126,6 @@ const observerOptions = {
 const observerCallback = (entries, observer) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting && entry.intersectionRatio > 0) {
-      console.log("y");
       const index = sectionIds.indexOf(`#${entry.target.id}`);
       // 스크롤링이 아래로 되어서 페이지가 올라옴
       if (entry.boundingClientRect.y < 0) {
